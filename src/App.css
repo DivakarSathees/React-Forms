@@ -1,0 +1,18 @@
+h1{
+  text-align: center;
+  margin-top: 7%;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+p{
+  text-align: center;
+  margin-left: 7%;
+  font-size: 1.5rem;
+  margin-right: 7%;
+}
+
+img{
+  width: 250px;
+  height: 180px;
+}
