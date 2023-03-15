@@ -7,6 +7,8 @@ import Item from './components/Item'
 import Main from './components/Main'
 // import './App.css'
 import Navbar from './components/Navbar'
+import Registrationform from './components/Registartionform'
+import Submittedform from './components/Submittedform'
 
 const App = () => {
   return (
@@ -17,7 +19,9 @@ const App = () => {
         <Route path='/about' element={<About/>}/>
         <Route path='/destination' element={<Destination/>}/>
         <Route path='/item/:id' element={<Item />} />
-        <Route path='/contact' element={<Contact />} />
+        <Route path='/contact' element={<Contact />} />        
+        <Route path='/registration' element={<Registrationform  />} />
+        <Route path='/submittedform' element={<Submittedform />} />
         <Route exact="true" path="/" element={<Main />} />
         <Route path='*' element={<Main/>}/>
 
